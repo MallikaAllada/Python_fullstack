@@ -17,3 +17,4 @@ let button=document.getElementById("btnGreeting");
 button.addEventListener("click", function(){
     alert("Welcome to Javascript Event Handling");
 });
+

@@ -31,3 +31,18 @@ function greetStudent(name){
     console.log("Hello" + name + ", Welcome to NRIIT Learning Managament System")
 }
 greetStudent(student_name)
+
+function squareNumber(num){
+    return num*num;
+}
+x=squareNumber(5);
+console.log("Square of 5 is: ",x)
+
+
+function even_or_odd(number):
+    if number % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+print(even_or_odd(8))  
+print(even_or_odd(7)) 
